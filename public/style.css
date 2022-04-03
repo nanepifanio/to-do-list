@@ -22,7 +22,7 @@ body {
   display: flex;
   flex-direction: column;
   text-align: center;
-  font-family: 'Courier New', Courier, monospace;
+  font-family: "Courier New", Courier, monospace;
   padding: 20px;
 }
 
@@ -45,11 +45,22 @@ body {
   width: 100%;
 }
 
+.tarefa {
+  max-width: 55%;
+  word-wrap: break-word;
+}
+
+.button-lista {
+  flex: 2;
+}
+
 .feito {
   margin-right: 5px;
 }
 
-.listar, .feito, .apagar {
+.listar,
+.feito,
+.apagar {
   border-radius: 5px;
-  font-family: 'Courier New', Courier, monospace;
+  font-family: "Courier New", Courier, monospace;
 }
