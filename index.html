@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta lang="pt-br" />
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Lista de Tarefas</title>
+    <link
+      rel="stylesheet"
+      href="./public/style.css"
+      type="text/css"
+      media="all"
+    />
+    <script src="./public/script.js" defer></script>
+  </head>
+  <body>
+    <div class="container">
+      <h1>Lista de Tarefas</h1>
+      <div class="container-inputs">
+        <input type="text" name="texto" id="texto" required />
+        <button class="listar">Listar</button>
+      </div>
+    </div>
+
+    <div class="modelo">
+      <div class="lista">
+        <p class="tarefa"></p>
+        <div class="buttons-lista">
+          <button class="feito">feito</button>
+          <button class="apagar">apagar</button>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
