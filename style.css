@@ -1,0 +1,55 @@
+body,
+p,
+h1 {
+  margin: 0;
+  padding: 0;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #30cac1;
+}
+
+.container {
+  margin: auto;
+  width: 80%;
+  margin-top: 30px;
+  background-color: #fff;
+  border-radius: 10px;
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  font-family: 'Courier New', Courier, monospace;
+  padding: 20px;
+}
+
+.container .lista:nth-child(odd) {
+  background-color: #c7d1d0;
+}
+
+.container-inputs {
+  margin: 10px 0;
+}
+
+.modelo {
+  display: none;
+}
+
+.lista {
+  display: flex;
+  justify-content: space-between;
+  padding: 10px;
+  width: 100%;
+}
+
+.feito {
+  margin-right: 5px;
+}
+
+.listar, .feito, .apagar {
+  border-radius: 5px;
+  font-family: 'Courier New', Courier, monospace;
+}
